@@ -15,6 +15,7 @@ module.exports = {
         chat: "url('/chatbuddy.png')",
         ummu: "url('/ummu.png')",
         oasis: "url('/oasis.png')",
+        profile: "url('/profile.png')",
       },
     },
     plugins: [],
