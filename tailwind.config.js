@@ -5,6 +5,18 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
-  plugins: [],
+  theme: {
+    extend: {
+      backgroundImage: {
+        my_photo: "url('/my_photo.png')",
+        e_commerce: "url('/e-commerce fiverr gig.png')",
+        fcc: "url('/fcc.png')",
+        pdc: "url('/pdc.png')",
+        chat: "url('/chatbuddy.png')",
+        ummu: "url('/ummu.png')",
+        oasis: "url('/oasis.png')",
+      },
+    },
+    plugins: [],
+  },
 };
