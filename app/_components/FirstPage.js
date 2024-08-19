@@ -18,11 +18,11 @@ function FirstPage() {
       <div className=" w-[300px]">
         <p className="mb-2 text-white text-lg">Here are some of my work</p>
         <div className="grid grid-cols-2 gap-2">
-          <div className="bg-chat bg-cover bg-center h-[80px]"></div>
-          <div className="bg-e_commerce bg-cover bg-center h-[80px]"></div>
           <div className="bg-fcc bg-cover bg-center h-[80px]"></div>
-          <div className="bg-oasis bg-cover bg-center h-[80px]"></div>
           <div className="bg-pdc bg-cover bg-center h-[80px]"></div>
+          <div className="bg-oasis bg-cover bg-center h-[80px]"></div>
+          <div className="bg-e_commerce bg-cover bg-center h-[80px]"></div>
+          <div className="bg-chat bg-cover bg-center h-[80px]"></div>
           <div className="bg-ummu bg-cover bg-center h-[80px]"></div>
         </div>
       </div>

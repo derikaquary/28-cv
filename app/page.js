@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Header from "./_components/Header";
-import Carousel from "./_components/Carousel";
 import FirstPage from "./_components/FirstPage";
+import SecondPage from "./_components/SecondPage";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,45 +26,7 @@ export default function Home() {
         </div>
       )}
       <FirstPage />
-      <div
-        id="red"
-        className="border border-pink-400 h-[100vh] w-[300px] px-3 ">
-        <div className="bg-chat h-[200px] bg-cover bg-center"></div>
-        <p className="text-white text-sm text-justify">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
-          velit nulla impedit ex, debitis consequuntur, sunt cupiditate eos nemo
-          dicta cumque facere autem omnis quod. Dolore dolor voluptatum.
-        </p>
-        <Carousel>
-          <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            <div className="bg-profile h-[150px] w-[200px] bg-center bg-cover"></div>
-            <p className="text-white text-sm ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Adipisci, animi repellendus ab quos quidem illum esse, libero
-              maiores omnis at repudiandae, obcaecati odit magni eum quod. Eos
-              impedit illum molestias.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            <div className="bg-profile h-[150px] w-[200px] bg-center bg-cover"></div>
-            <p className="text-white text-sm ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Adipisci, animi repellendus ab quos quidem illum esse, libero
-              maiores omnis at repudiandae, obcaecati odit magni eum quod. Eos
-              impedit illum molestias.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            <div className="bg-profile h-[150px] w-[200px] bg-center bg-cover"></div>
-            <p className="text-white text-sm ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Adipisci, animi repellendus ab quos quidem illum esse, libero
-              maiores omnis at repudiandae, obcaecati odit magni eum quod. Eos
-              impedit illum molestias.
-            </p>
-          </div>
-        </Carousel>
-      </div>
+      <SecondPage />
       <div id="yellow" className="bg-yellow-400 h-[100vh] w-[300px]"></div>
       <div id="cyan" className="bg-cyan-400 h-[100vh] w-[300px]"></div>
       <div id="purple" className="bg-purple-400 h-[100vh] w-[300px]"></div>

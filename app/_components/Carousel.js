@@ -27,7 +27,7 @@ export default function Carousel({
   }, [next, autoSlide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden relative flex justify-center w-full ">
+    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10">
       <div
         className="flex transition-transform ease-out duration-200"
         style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}>
@@ -37,16 +37,16 @@ export default function Carousel({
           </div>
         ))}
       </div>
-      <div className="absolute inset-0 flex justify-between p-5">
-        <button onClick={prev}>
+      <div className="absolute inset-0 flex  justify-between p-5">
+        <button className="-translate-y-10" onClick={prev}>
           <IoIosArrowBack color="white" size={30} />
         </button>
-        <button onClick={next}>
+        <button className="-translate-y-10" onClick={next}>
           <IoIosArrowForward color="white" size={30} />
         </button>
       </div>
-      <div className="absolute bottom-4 right-0 left-0">
-        <div className="flex items-center justify-center gap-2">
+      <div className="absolute bottom-3 right-0 left-0">
+        <div className="flex items-center justify-center gap-2 z-10 ">
           {children.map((_, i) => (
             <div
               key={i}
