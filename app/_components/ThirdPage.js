@@ -47,7 +47,7 @@ function ThirdPage() {
       </div>
       <div>
         <Link
-          href="https://chatbuddy-derik-aquarys-projects.vercel.app"
+          href="https://food-check.vercel.app/"
           target="_blank"
           rel="noopener noreferrer">
           <button className="text-white bg-gray-700 rounded-xl px-3 py-2">
