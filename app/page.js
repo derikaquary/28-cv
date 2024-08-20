@@ -3,10 +3,11 @@
 import { useState } from "react";
 import Header from "./_components/Header";
 import FirstPage from "./_components/FirstPage";
-import SecondPage from "./_components/SecondPage";
-import ThirdPage from "./_components/ThirdPage";
-import FourthPage from "./_components/FourthPage";
-import FifthPage from "./_components/FifthPage";
+import ChatBuddy from "./_components/ChatBuddy";
+import Fcc from "./_components/Fcc";
+import Pdc from "./_components/Pdc";
+import Oasis from "./_components/Oasis";
+import Ecommerce from "./_components/Ecommerce";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,10 +30,11 @@ export default function Home() {
         </div>
       )}
       <FirstPage />
-      <SecondPage />
-      <ThirdPage />
-      <FourthPage />
-      <FifthPage />
+      <Fcc />
+      <Pdc />
+      <Oasis />
+      <Ecommerce />
+      <ChatBuddy />
     </main>
   );
 }
