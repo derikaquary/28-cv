@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "./_components/Header";
 import FirstPage from "./_components/FirstPage";
 import SecondPage from "./_components/SecondPage";
+import ThirdPage from "./_components/ThirdPage";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ export default function Home() {
       )}
       <FirstPage />
       <SecondPage />
-      <div id="yellow" className="bg-yellow-400 h-[100vh] w-[300px]"></div>
+      <ThirdPage />
       <div id="cyan" className="bg-cyan-400 h-[100vh] w-[300px]"></div>
       <div id="purple" className="bg-purple-400 h-[100vh] w-[300px]"></div>
     </main>
