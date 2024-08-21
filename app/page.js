@@ -8,6 +8,7 @@ import Fcc from "./_components/Fcc";
 import Pdc from "./_components/Pdc";
 import Oasis from "./_components/Oasis";
 import Ecommerce from "./_components/Ecommerce";
+import Ummu from "./_components/Ummu";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,6 +35,7 @@ export default function Home() {
       <Pdc />
       <Oasis />
       <Ecommerce />
+      <Ummu />
       <ChatBuddy />
     </main>
   );
