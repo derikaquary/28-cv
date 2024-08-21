@@ -10,7 +10,7 @@ function Ummu() {
         <div
           data-aos="fade-up"
           data-aos-duration={1000}
-          className="bg-ummu h-[200px] bg-cover bg-center"></div>
+          className="rounded-xl bg-ummu h-[200px] bg-cover bg-center"></div>
         <p className="text-white text-sm text-justify w-[300px]">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
           velit nulla impedit ex, debitis consequuntur, sunt cupiditate eos nemo
@@ -20,7 +20,7 @@ function Ummu() {
       <div>
         <Carousel autoSlide={true}>
           <div className="flex flex-col items-center mt-3 space-y-2 ">
-            <div className="bg-menu h-[150px] w-[200px] bg-center bg-cover"></div>
+            <div className="rounded-xl bg-menu h-[150px] w-[200px] bg-center bg-cover"></div>
             <p className="text-white text-sm text-justify">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero
@@ -29,7 +29,7 @@ function Ummu() {
             </p>
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            <div className="bg-ball h-[150px] w-[200px] bg-menu2 bg-cover"></div>
+            <div className="rounded-xl bg-menu2 h-[150px] w-[200px] bg-cover"></div>
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero
@@ -38,7 +38,7 @@ function Ummu() {
             </p>
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            <div className="bg-order h-[150px] w-[200px] bg-center bg-cover"></div>
+            <div className="rounded-xl bg-order h-[150px] w-[200px] bg-center bg-cover"></div>
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero

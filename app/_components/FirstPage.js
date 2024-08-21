@@ -24,16 +24,17 @@ function FirstPage() {
       </div>
 
       <div className="bg-my_photo bg-cover bg-center h-[220px] w-[220px] rounded-xl ml-[20px] my-[20px]"></div>
+      <p className="text-center text-xl text-white">WA: +6281268644726</p>
 
       <div className=" w-[300px]">
         <p className="mb-2 text-white text-lg">Here are some of my work</p>
         <div className="grid grid-cols-2 gap-2">
-          <div className="bg-fcc bg-cover bg-center h-[80px]"></div>
-          <div className="bg-pdc bg-cover bg-center h-[80px]"></div>
-          <div className="bg-oasis bg-cover bg-center h-[80px]"></div>
-          <div className="bg-e_commerce bg-cover bg-center h-[80px]"></div>
-          <div className="bg-chat bg-cover bg-center h-[80px]"></div>
-          <div className="bg-ummu bg-cover bg-center h-[80px]"></div>
+          <div className="rounded-xl bg-fcc bg-cover bg-center h-[80px]"></div>
+          <div className=" rounded-xl bg-pdc bg-cover bg-center h-[80px]"></div>
+          <div className="rounded-xl bg-oasis bg-cover bg-center h-[80px]"></div>
+          <div className="rounded-xl bg-e_commerce bg-cover bg-center h-[80px]"></div>
+          <div className="rounded-xl bg-chat bg-cover bg-center h-[80px]"></div>
+          <div className="rounded-xl bg-ummu bg-cover bg-center h-[80px]"></div>
         </div>
       </div>
     </div>
