@@ -1,4 +1,14 @@
+"use client";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 function FirstPage() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div
       id="green"

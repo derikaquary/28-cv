@@ -1,5 +1,7 @@
 "use client";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useState } from "react";
 import Header from "./_components/Header";
 import FirstPage from "./_components/FirstPage";
@@ -11,6 +13,7 @@ import Ecommerce from "./_components/Ecommerce";
 import Ummu from "./_components/Ummu";
 
 export default function Home() {
+  
   const [isOpen, setIsOpen] = useState(false);
   function handleSidebar() {
     setIsOpen((isOpen) => !isOpen);

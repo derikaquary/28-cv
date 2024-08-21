@@ -7,7 +7,10 @@ function Ummu() {
       id="cyan"
       className="flex flex-col items-center justify center h-[100vh] w-[300px] px-3 gap-2">
       <div>
-        <div className="bg-ummu h-[200px] bg-cover bg-center"></div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration={1000}
+          className="bg-ummu h-[200px] bg-cover bg-center"></div>
         <p className="text-white text-sm text-justify w-[300px]">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
           velit nulla impedit ex, debitis consequuntur, sunt cupiditate eos nemo
@@ -45,7 +48,7 @@ function Ummu() {
           </div>
         </Carousel>
       </div>
-      <div>
+      <div data-aos="fade-right" data-aos-duration={1000}>
         <Link
           href="https://wild-oasis-website-six.vercel.app/"
           target="_blank"
