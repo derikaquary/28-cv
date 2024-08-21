@@ -48,7 +48,7 @@ function ChatBuddy() {
           </div>
         </Carousel>
       </div>
-      <div data-aos="fade-left" data-aos-duration={1000}>
+      <div>
         <Link
           href="https://chatbuddy-derik-aquarys-projects.vercel.app"
           target="_blank"
