@@ -1,14 +1,5 @@
 export const contents = [
   {
-    id: "fcc",
-    effect: "fade-up",
-    mainImage: "fcc",
-    subImage1: "makanan",
-    subImage2: "artMakanan",
-    subImage3: "contMakanan",
-    pageRef: "https://food-check.vercel.app/",
-  },
-  {
     id: "pdc",
     effect: "fade-up",
     mainImage: "pdc",
@@ -16,6 +7,15 @@ export const contents = [
     subImage2: "plantArt",
     subImage3: "plantCont",
     pageRef: "https://plant-check.vercel.app/",
+  },
+  {
+    id: "fcc",
+    effect: "fade-up",
+    mainImage: "fcc",
+    subImage1: "makanan",
+    subImage2: "artMakanan",
+    subImage3: "contMakanan",
+    pageRef: "https://food-check.vercel.app/",
   },
   {
     id: "oasis",

@@ -7,7 +7,7 @@ function PageComponent({ content }) {
   return (
     <div
       id={id}
-      className="flex flex-col gap-4 items-center h-[100vh] w-full px-3 max-w-7xl">
+      className="flex flex-col gap-4 items-center h-[100vh] w-full px-3 max-w-7xl mb-3">
       <div data-aos="fade-right" data-aos-duration={1000}>
         <Link href={pageRef} target="_blank" rel="noopener noreferrer">
           <button className="text-white bg-gray-700 rounded-xl px-3 py-2">
