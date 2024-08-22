@@ -5,6 +5,11 @@ import Header from "./_components/Header";
 import FirstPage from "./_components/FirstPage";
 import Pdc from "@/app/_components/Pdc.js";
 import { contents } from "./_data/contents";
+import Fcc from "./_components/Fcc";
+import Oasis from "./_components/Oasis";
+import Ecommerce from "./_components/Ecommerce";
+import ChatBuddy from "./_components/ChatBuddy";
+import Ummu from "./_components/Ummu";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +32,12 @@ export default function Home() {
         </div>
       )}
       <FirstPage />
+      <Fcc />
       <Pdc />
+      <Oasis />
+      <Ecommerce />
+      <ChatBuddy />
+      <Ummu />
     </main>
   );
 }
