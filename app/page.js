@@ -27,9 +27,16 @@ export default function Home() {
         </div>
       )}
       <FirstPage />
-      {contents.map((content) => (
-        <PageComponent content={content} key={content.id} />
-      ))}
+
+      <PageComponent
+        id={"pdc"}
+        effect={"fade-up"}
+        mainImage={"pdc"}
+        subImage1={"lettuce"}
+        subImage2={"plantArt"}
+        subImage3={"plantCont"}
+        pageRef={"https://plant-check.vercel.app/"}
+      />
     </main>
   );
 }

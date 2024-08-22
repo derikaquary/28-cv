@@ -1,9 +1,17 @@
 import Link from "next/link";
 import Carousel from "./Carousel";
 
-function PageComponent({ content }) {
-  const { id, effect, mainImage, subImage1, subImage2, subImage3, pageRef } =
-    content;
+function PageComponent({
+  id,
+  effect,
+  mainImage,
+  subImage1,
+  subImage2,
+  subImage3,
+  pageRef,
+}) {
+  /* const { id, effect, mainImage, subImage1, subImage2, subImage3, pageRef } =
+    content; */
   return (
     <div
       id={id}
