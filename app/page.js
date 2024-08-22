@@ -22,7 +22,7 @@ export default function Home() {
     <main className="flex flex-col items-center px-3">
       <Header handleSidebar={handleSidebar} />
       <div
-        className={`${
+        className={`sm:hidden ${
           isOpen ? "max-h-[180px]" : "max-h-0"
         } overflow-hidden bg-black/60 fixed top-15 left-0 right-0 px-[30px] border border-black z-[1000] transition-all duration-500 ease-in-out`}>
         <div className="flex flex-col justify-between space-y-3">

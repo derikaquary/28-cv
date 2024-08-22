@@ -27,7 +27,7 @@ export default function Carousel({
   }, [next, autoSlide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10">
+    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10 sm:w-[650px] sm:h-[500px]">
       <div
         className="flex transition-transform ease-out duration-200"
         style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}>
@@ -37,7 +37,7 @@ export default function Carousel({
           </div>
         ))}
       </div>
-      <div className="absolute inset-0 flex  justify-between p-5">
+      <div className="absolute inset-0 flex justify-between p-5">
         <button className="-translate-y-10" onClick={prev}>
           <IoIosArrowBack color="white" size={30} />
         </button>

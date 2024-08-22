@@ -33,6 +33,7 @@ module.exports = {
         menu: "url('/menu.png')",
         menu2: "url('/menu2.png')",
         order: "url('/order.png')",
+        logo: "url('/logo.jpeg')",
       },
     },
     plugins: [],
