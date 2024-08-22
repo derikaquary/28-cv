@@ -39,13 +39,9 @@ function PageComponent({ content }) {
             </p>
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            {id === "chat" ? (
-              <div
-                className={`rounded-xl bg-signup h-[150px] w-[200px] bg-center bg-cover`}></div>
-            ) : (
-              <div
-                className={`rounded-xl bg-${subImage2} h-[150px] w-[200px] bg-center bg-cover`}></div>
-            )}
+            <div
+              className={`rounded-xl bg-${subImage2} h-[150px] w-[200px] bg-center bg-cover`}></div>
+
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero
@@ -54,13 +50,9 @@ function PageComponent({ content }) {
             </p>
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            {id === "chat" ? (
-              <div
-                className={`rounded-xl bg-pricing h-[150px] w-[200px] bg-center bg-cover`}></div>
-            ) : (
-              <div
-                className={`rounded-xl bg-${subImage3} h-[150px] w-[200px] bg-center bg-cover`}></div>
-            )}
+            <div
+              className={`rounded-xl bg-${subImage3} h-[150px] w-[200px] bg-center bg-cover`}></div>
+
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero
