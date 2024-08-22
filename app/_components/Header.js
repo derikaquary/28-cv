@@ -9,20 +9,26 @@ function Header({ handleSidebar }) {
       <div className="text-white">Logo</div>
       <nav className="flex flex-row ">
         <FaBars onClick={handleSidebar} color="white" size={35} />
-        <Link href="#green" className="hidden text-white">
-          Green
+        <Link href="#fcc" className="hidden text-white">
+          Calorie
         </Link>
-        <Link href="#red" className="hidden text-white">
-          Red
+        <Link href="#pdc" className="hidden text-white">
+          Plant
         </Link>
-        <Link href="#yellow" className="hidden text-white">
-          Yellow
+        <Link href="#oasis" className="hidden text-white">
+          Oasis
         </Link>
         <Link href="#cyan" className="hidden marker:text-white">
           Cyan
         </Link>
-        <Link href="#purple" className="hidden text-white">
-          Purple
+        <Link href="#ecommerce" className="hidden text-white">
+          E-Commerce
+        </Link>
+        <Link href="#chat" className="hidden text-white">
+          ChatBuddy
+        </Link>
+        <Link href="#ummu" className="hidden text-white">
+          UMY
         </Link>
       </nav>
     </header>
