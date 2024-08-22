@@ -5,7 +5,7 @@ function Fcc() {
   return (
     <div
       id="yellow"
-      className="flex flex-col gap-5 items-center justify center h-[100vh] w-[300px] px-3 ">
+      className="flex flex-col gap-5 items-center h-[100vh] w-full px-3 max-w-7xl ">
       <div>
         <div
           data-aos="fade-up"

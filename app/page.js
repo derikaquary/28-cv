@@ -3,12 +3,8 @@
 import { useState } from "react";
 import Header from "./_components/Header";
 import FirstPage from "./_components/FirstPage";
-import ChatBuddy from "./_components/ChatBuddy";
-import Fcc from "./_components/Fcc";
-import Pdc from "./_components/Pdc";
-import Oasis from "./_components/Oasis";
-import Ecommerce from "./_components/Ecommerce";
-import Ummu from "./_components/Ummu";
+import PageComponent from "@/app/_components/PageComponent";
+import { contents } from "./_data/contents";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +13,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col items-center h-full">
+    <main className="flex flex-col items-center px-3">
       <Header handleSidebar={handleSidebar} />
       {isOpen && (
         <div className="bg-red-400 h-[180px] fixed top-15 left-0 right-0 px-[30px] py-auto border border-black">
@@ -31,12 +27,9 @@ export default function Home() {
         </div>
       )}
       <FirstPage />
-      <Fcc />
-      <Pdc />
-      <Oasis />
-      <Ecommerce />
-      <Ummu />
-      <ChatBuddy />
+      {contents.map((content) => (
+        <PageComponent content={content} key={content.id} />
+      ))}
     </main>
   );
 }

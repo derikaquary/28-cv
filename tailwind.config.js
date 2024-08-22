@@ -16,6 +16,8 @@ module.exports = {
         ummu: "url('/ummu.png')",
         oasis: "url('/oasis.png')",
         profile: "url('/profile.png')",
+        signup: "url('/signup.png')",
+        pricing: "url('/pricing.png')",
         makanan: "url('/makanan.png')",
         artMakanan: "url('/article_makanan.png')",
         contMakanan: "url('/article_content.png')",

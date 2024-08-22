@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa6";
 
 function Header({ handleSidebar }) {
   return (
-    <header className="bg-[#212429] h-[50px] fixed left-0 top-0 right-0 flex flex-row items-center justify-between mx-auto max-w-7xl w-[302px] z-50">
+    <header className="bg-[#212429] h-[50px] fixed left-0 top-0 right-0 flex flex-row items-center justify-between mx-auto max-w-7xl w-full z-50 px-3">
       <div className="text-white">Logo</div>
       <nav className="flex flex-row ">
         <FaBars onClick={handleSidebar} color="white" size={35} />

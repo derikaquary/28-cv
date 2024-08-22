@@ -13,12 +13,12 @@ function FirstPage() {
   return (
     <div
       id="green"
-      className=" flex flex-col items-center h-[100vh] w-[300px] ">
+      className=" flex flex-col items-center h-[100vh] w-full max-w-7xl">
       <div>
         <p className="text-white text-[14px] mb-3 text-lg">
           Welcome to my world{" "}
         </p>
-        <p className=" text-white text-2xl font-bold">
+        <p className=" text-white text-2xl font-bold text-center">
           Hi, I am <span className="text-[#ad1344]">Derik Aquary</span>, a
           Developer.
         </p>
