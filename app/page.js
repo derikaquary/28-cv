@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Header from "./_components/Header";
 import FirstPage from "./_components/FirstPage";
-import PageComponent from "@/app/_components/PageComponent";
+import Pdc from "@/app/_components/Pdc.js";
 import { contents } from "./_data/contents";
 
 export default function Home() {
@@ -27,16 +27,7 @@ export default function Home() {
         </div>
       )}
       <FirstPage />
-
-      <PageComponent
-        id={"pdc"}
-        effect={"fade-up"}
-        mainImage={"pdc"}
-        subImage1={"lettuce"}
-        subImage2={"plantArt"}
-        subImage3={"plantCont"}
-        pageRef={"https://plant-check.vercel.app/"}
-      />
+      <Pdc />
     </main>
   );
 }

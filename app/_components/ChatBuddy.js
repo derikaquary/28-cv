@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Carousel from "./Carousel";
 
-function Fcc() {
+function ChatBuddy() {
   return (
     <div
-      id="fcc"
+      id="chat"
       className="flex flex-col gap-4 items-center h-[100vh] w-full px-3 max-w-7xl mb-3">
       <div data-aos="fade-right" data-aos-duration={1000}>
         <Link
-          href="https://food-check.vercel.app/"
+          href="https://chatbuddy-derik-aquarys-projects.vercel.app/"
           target="_blank"
           rel="noopener noreferrer">
           <button className="text-white bg-gray-700 rounded-xl px-3 py-2">
@@ -20,7 +20,7 @@ function Fcc() {
         <div
           data-aos="fade-up"
           data-aos-duration={1000}
-          className={`rounded-xl bg-fcc h-[200px] bg-cover bg-center`}></div>
+          className={`rounded-xl bg-chat h-[200px] bg-cover bg-center`}></div>
         <p className="text-white text-sm text-justify w-[300px]">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
           velit nulla impedit ex, debitis consequuntur, sunt cupiditate eos nemo
@@ -31,7 +31,7 @@ function Fcc() {
         <Carousel autoSlide={true}>
           <div className="flex flex-col items-center mt-3 space-y-2 ">
             <div
-              className={`rounded-xl bg-makanan h-[150px] w-[200px] bg-center bg-cover`}></div>
+              className={`rounded-xl bg-profile h-[150px] w-[200px] bg-center bg-cover`}></div>
             <p className="text-white text-sm text-justify">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero
@@ -41,7 +41,7 @@ function Fcc() {
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
             <div
-              className={`rounded-xl bg-artMakanan h-[150px] w-[200px] bg-center bg-cover`}></div>
+              className={`rounded-xl bg-pricing h-[150px] w-[200px] bg-center bg-cover`}></div>
 
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -52,7 +52,7 @@ function Fcc() {
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
             <div
-              className={`rounded-xl bg-contMakanan h-[150px] w-[200px] bg-center bg-cover`}></div>
+              className={`rounded-xl bg-signup h-[150px] w-[200px] bg-center bg-cover`}></div>
 
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -67,4 +67,4 @@ function Fcc() {
   );
 }
 
-export default Fcc;
+export default ChatBuddy;
