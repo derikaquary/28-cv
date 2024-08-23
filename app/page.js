@@ -4,12 +4,6 @@ import { useState } from "react";
 import Header from "./_components/Header";
 import { contents } from "./_data/contents";
 import FirstPage from "./_components/FirstPage";
-import Pdc from "@/app/_components/Pdc.js";
-import Fcc from "./_components/Fcc";
-import Oasis from "./_components/Oasis";
-import Ecommerce from "./_components/Ecommerce";
-import ChatBuddy from "./_components/ChatBuddy";
-import Ummu from "./_components/Ummu";
 import Link from "next/link";
 import PageComponent from "./_components/PageComponent";
 
@@ -50,13 +44,6 @@ export default function Home() {
         {contents.map((content) => (
           <PageComponent content={content} key={content.id} />
         ))}
-        {/* 
-        <Fcc />
-        <Pdc />
-        <Oasis />
-        <Ecommerce />
-        <ChatBuddy />
-        <Ummu /> */}
       </div>
     </main>
   );
