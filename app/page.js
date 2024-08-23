@@ -43,13 +43,15 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <FirstPage />
-      <Fcc />
-      <Pdc />
-      <Oasis />
-      <Ecommerce />
-      <ChatBuddy />
-      <Ummu />
+      <div className="flex flex-col gap-3">
+        <FirstPage />
+        <Fcc />
+        <Pdc />
+        <Oasis />
+        <Ecommerce />
+        <ChatBuddy />
+        <Ummu />
+      </div>
     </main>
   );
 }
