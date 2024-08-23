@@ -1,14 +1,5 @@
 export const contents = [
   {
-    id: "pdc",
-    effect: "fade-up",
-    mainImage: "pdc",
-    subImage1: "lettuce",
-    subImage2: "plantArt",
-    subImage3: "plantCont",
-    pageRef: "https://plant-check.vercel.app/",
-  },
-  {
     id: "fcc",
     effect: "fade-up",
     mainImage: "fcc",
@@ -16,6 +7,15 @@ export const contents = [
     subImage2: "artMakanan",
     subImage3: "contMakanan",
     pageRef: "https://food-check.vercel.app/",
+  },
+  {
+    id: "pdc",
+    effect: "fade-up",
+    mainImage: "pdc",
+    subImage1: "lettuce",
+    subImage2: "plantArt",
+    subImage3: "plantCont",
+    pageRef: "https://plant-check.vercel.app/",
   },
   {
     id: "oasis",
@@ -36,15 +36,6 @@ export const contents = [
     pageRef: "https://online-shopping-sooty-ten.vercel.app/",
   },
   {
-    id: "ummu",
-    effect: "fade-up",
-    mainImage: "ummu",
-    subImage1: "menu",
-    subImage2: "menu2",
-    subImage3: "order",
-    pageRef: "https://warung-ummu-yassir.vercel.app/",
-  },
-  {
     id: "chat",
     effect: "fade-up",
     mainImage: "chat",
@@ -52,5 +43,14 @@ export const contents = [
     subImage2: "pricing",
     subImage3: "signup",
     pageRef: "https://chatbuddy-derik-aquarys-projects.vercel.app/",
+  },
+  {
+    id: "ummu",
+    effect: "fade-up",
+    mainImage: "ummu",
+    subImage1: "menu",
+    subImage2: "menu2",
+    subImage3: "order",
+    pageRef: "https://warung-ummu-yassir.vercel.app/",
   },
 ];
