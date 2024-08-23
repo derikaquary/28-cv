@@ -29,7 +29,7 @@ function ChatBuddy() {
             </p>
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            <div className="rounded-xl bg-profile h-[150px] w-[200px] bg-center bg-cover"></div>
+            <div className="rounded-xl bg-pricing h-[150px] w-[200px] bg-center bg-cover"></div>
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero
@@ -38,7 +38,7 @@ function ChatBuddy() {
             </p>
           </div>
           <div className="flex flex-col items-center text-justify mt-3  space-y-2">
-            <div className="rounded-xl bg-profile h-[150px] w-[200px] bg-center bg-cover"></div>
+            <div className="rounded-xl bg-signup h-[150px] w-[200px] bg-center bg-cover"></div>
             <p className="text-white text-sm ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, animi repellendus ab quos quidem illum esse, libero
