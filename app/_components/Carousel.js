@@ -27,7 +27,7 @@ export default function Carousel({
   }, [next, autoSlide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10 sm:w-[650px] sm:h-[500px]">
+    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10 sm:w-[750px] sm:h-[500px]">
       <div
         className="flex transition-transform ease-out duration-200"
         style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}>
