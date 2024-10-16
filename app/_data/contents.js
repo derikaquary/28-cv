@@ -38,11 +38,9 @@ export const contents = [
     subImage3: "guest",
     pageRef: "https://wild-oasis-website-six.vercel.app/",
     text1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "This a very ambitious project	&#44; where I expand my knowledge after learning React.js	&#44; and I continue to learn Next.js by building this project. ",
     text2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text3:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "This is a full-stack website where the backend is handled by using Supabase. Also&#44; I learned how to include an authentication process by using Auth.js",
   },
   {
     id: "ecommerce",
@@ -53,11 +51,7 @@ export const contents = [
     subImage3: "products",
     pageRef: "https://online-shopping-sooty-ten.vercel.app/",
     text1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text3:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "This is where I started to learn react and apply useReducer to manage the state&#46; In this e-commerce-app&#44; the user can choose the item he wants&#44; can choose the amount using selector and put them in the cart&#46; In the cart page the total of the price will be calculated&#46;",
   },
   {
     id: "chat",
@@ -68,11 +62,9 @@ export const contents = [
     subImage3: "signup",
     pageRef: "https://chatbuddy-derik-aquarys-projects.vercel.app/",
     text1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "I&#39;m working on an exciting project with a friend to build an app similar to ChatGPT&#46; My role focuses on designing the UI/UX, using glassmorphism to create a modern and appealing interface, while my friend develops the AI for interactive conversations&#46; ",
     text2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text3:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Our app aims to help users solve various problems or simply provide a friendly companion to chat with&#46; Although it's still under development&#44; I'm thrilled to be part of this journey and eager to see it come to fruition&#46;",
   },
   {
     id: "ummu",
@@ -83,10 +75,6 @@ export const contents = [
     subImage3: "order",
     pageRef: "https://warung-ummu-yassir.vercel.app/",
     text1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text3:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Excited to share my latest web development project&#33; I recently built a sleek&#44; user-friendly website for Ummu Yasir&#44; showcasing their authentic Indonesian cuisine&#46; From implementing a seamless design to optimizing for mobile responsiveness&#44; this site highlights my skills in creating engaging&#44; functional&#44; and visually appealing websites&#46; Check it out to see how I bring clients&#39; visions to life&#33;",
   },
 ];
