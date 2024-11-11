@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import Header from "./_components/Header";
-import { contents } from "./_data/contents";
+import Skill from "./_components/Skill";
 import FirstPage from "./_components/FirstPage";
-import Link from "next/link";
-import PageComponent from "./_components/PageComponent";
+
+
+
+import { skills } from "./_data/skillList";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,9 +17,12 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center px-3">
-      <Header handleSidebar={handleSidebar} />
+    <div className="flex flex-col items-center px-3 ">
+      <Header />
       <FirstPage />
+      <div className="grid grid-cols-3 gap-16 mt-5">
+        {skills.map(skill=> <Skill skill={skill} key={skill.id} />)}
+      </div>
     </div>
   );
 }

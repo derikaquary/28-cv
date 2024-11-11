@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${rubik.className} bg-[#212429] pt-[51px] relative`}>
+      <body className={`${rubik.className} bg-[#212429] relative`}>
         {children}
       </body>
     </html>
