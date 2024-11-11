@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function ContactButtons() {
   return (
     <div>
-      <div className="bg-green-600 rounded-full ">
+      <div className="bg-[#d31551] rounded-full ">
         <a
           href="https://wa.me/6281268644726"
           target="_blank"

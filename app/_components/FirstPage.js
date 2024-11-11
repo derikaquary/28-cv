@@ -22,7 +22,7 @@ function FirstPage() {
             Welcome to my world{" "}
           </p>
           <p className="text-xl font-bold text-center text-white sm:text-xl">
-            Hi, I am <span className="text-[#ad1344]">Derik Aquary</span>, a
+            Hi, I am <span className="text-[#d31551]">Derik Aquary</span>, a
             Developer.
           </p>
         </div>
@@ -43,20 +43,20 @@ function FirstPage() {
       </div>
       <div className=" w-[300px] sm:w-full text-white text-justify">
         <p >
-          Hello! I&#39;m a dedicated <span className="text-[#ad1344] ">front-end web developer</span>front-end web developer with over a year of
+          Hello! I&#39;m a dedicated <span className="text-[#d31551] font-bold">front-end web developer</span> with over a year of
           experience crafting engaging and efficient web interfaces. I
-          specialize in React.js, Next.js, Tailwind CSS, and JavaScript,
+          specialize in <span className="text-[#d31551] font-bold">React.js, Next.js, Tailwind CSS, and JavaScript</span>,
           creating modern, responsive, and user-friendly websites. My journey in
-          web development began with a strong foundation in HTML and CSS, and I
+          web development began with a strong foundation in <span className="text-[#d31551] font-bold">HTML and CSS</span>, and I
           quickly advanced to building complex, data-driven web applications.
         </p>
         <p className="mt-3">
-          I currently work as a developer for Expert Dream Builder, where I
+          I currently work as a developer for <span className="text-[#d31551] font-bold">Expert Dream Builder</span>, where I
           manage the company&#39;s websites, enhance the online presence, and work
           closely with the marketing team to align digital experiences with
           business goals. Additionally, I have a thriving freelance career,
-          working on various projects, from e-commerce platforms to hospitality
-          websites, each time focusing on user experience and scalable
+          working on various projects, from <span className="text-[#d31551] font-bold">e&#45;commerce platforms</span> to <span className="text-[#d31551] font-bold">hospitality
+          websites</span>, each time focusing on user experience and scalable
           solutions.
         </p>
         <p className="mt-3">Let&#39;s connect and create something amazing together&#33;</p>
