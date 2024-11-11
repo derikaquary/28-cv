@@ -15,36 +15,9 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col items-center px-3">
+    <div className="flex flex-col items-center px-3">
       <Header handleSidebar={handleSidebar} />
-      <div
-        className={`sm:hidden ${
-          isOpen ? "max-h-[180px]" : "max-h-0"
-        } overflow-hidden bg-black/60 fixed top-15 left-0 right-0 px-[30px] border border-black z-[1000] transition-all duration-500 ease-in-out`}>
-        <div className="flex flex-col justify-between space-y-3">
-          <Link href="#fcc" className="text-white">
-            Calorie
-          </Link>
-          <Link href="#pdc" className="text-white">
-            Plant
-          </Link>
-          <Link href="#oasis" className="text-white">
-            Oasis
-          </Link>
-          <Link href="#ecommerce" className="text-white">
-            Ecommerce
-          </Link>
-          <Link href="#ummu" className="text-white">
-            UMY
-          </Link>
-        </div>
-      </div>
-      <div className="flex flex-col gap-3">
-        <FirstPage />
-        {contents.map((content) => (
-          <PageComponent content={content} key={content.id} />
-        ))}
-      </div>
-    </main>
+      <FirstPage />
+    </div>
   );
 }
