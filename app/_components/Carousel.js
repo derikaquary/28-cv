@@ -5,7 +5,7 @@ import { useEffect, useState, useCallback } from "react";
 export default function Carousel({
   subImages = [],
   texts = [],
-  autoSlide = false,
+  autoSlide = true,
   autoSlideInterval = 3000,
 }) {
   const [curr, setCurr] = useState(0);
@@ -27,7 +27,7 @@ export default function Carousel({
   }, [next, autoSlide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10 sm:w-[750px] sm:h-[500px]">
+    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10 sm:w-[600px] sm:h-full ">
       <div
         className="flex transition-transform ease-out duration-200"
         style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}
@@ -38,11 +38,11 @@ export default function Carousel({
             className="w-full flex-shrink-0 flex flex-col items-center space-y-2"
           >
             <div
-              className={`rounded-xl bg-${subImage} h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}
+              className={` bg-${subImage} h-[150px] w-[200px] bg-center bg-cover sm:h-[340px] sm:w-[600px]`}
             ></div>
-            <p className="text-white text-sm text-justify sm:text-2xl sm:w-[650px]">
+            {/* <p className="text-white text-sm text-justify sm:text-2xl sm:w-[650px]">
               {texts[index]}
-            </p>
+            </p> */}
           </div>
         ))}
       </div>

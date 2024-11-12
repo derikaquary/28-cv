@@ -13,7 +13,7 @@ export default function Projects() {
 
   return (
     <div className="mt-[40px] flex gap-4 w-full max-w-4xl h-[450px]">
-      <div className="bg-green-400">
+      <div className="flex-1 flex flex-col items-center justify-center">
         {/* Pass the subImages of the selected content */}
         <Carousel
           subImages={[
@@ -23,8 +23,9 @@ export default function Projects() {
           ]}
           texts={[selectedContent.text1, selectedContent.text2, selectedContent.text3]}
         />
+        <p>{selectedContent.text1}</p>
       </div>
-      <div className="bg-red-400 h-[450px] w-[250px] grid grid-cols-1-col gap-3 items-center justify-center overflow-auto">
+      <div className=" h-[450px] w-[250px] grid grid-cols-1-col gap-3 items-center justify-center overflow-auto">
         {contents.map((content) => (
           <div
             key={content.id}
