@@ -41,7 +41,7 @@ function Header() {
   return (
     <div className="fixed w-full z-[1000]">
       {/* Big Screen */}
-      <div className="hidden w-full sm:block">
+      <div className="hidden w-full sm:block bg-black">
         <div className="relative z-[1000] w-full bg-gradient-to-l from-color11 from-75% to-color1 sm:flex items-center justify-between sm:h-[76px]">
           <div className="flex items-center justify-between w-full max-w-6xl px-2 py-2 mx-auto">
             <div className="relative h-[50px] w-[50px]">
@@ -56,21 +56,21 @@ function Header() {
             <div className="flex items-center gap-6 py-2 text-white">
               <Link href="/" className="flex items-center gap-1">
                 <FaHome size={20} />
-                <p className="text-2xl">Home</p>
+                <p>Home</p>
               </Link>
               <Link
                 href="/pages/reservation"
                 className="flex items-center gap-1"
               >
                 <BiCategory size={20} />
-                Skill
+                <p>Skill</p>
               </Link>
               <Link
                 href="/pages/review_page"
                 className="flex items-center gap-1"
               >
                 <MdRateReview size={20} />
-                Project
+                <p>Project</p>
               </Link>
             </div>
           </div>

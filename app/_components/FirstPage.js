@@ -14,7 +14,7 @@ function FirstPage() {
   return (
     <div
       id="green"
-      className="flex flex-col gap-4 items-center w-full max-w-4xl sm:flex-row sm:justify-center sm:gap-8 sm:items-center pt-[60px]"
+      className="flex flex-col gap-4 items-center w-full max-w-4xl sm:flex-row sm:justify-center sm:gap-8 sm:items-center pt-[60px] sm:mt-[60px]"
     >
       <div className="flex flex-col gap-3 ">
         <div>
@@ -57,7 +57,7 @@ function FirstPage() {
           <span className="text-[#d31551] font-bold">HTML and CSS</span>, and I
           quickly advanced to building complex, data-driven web applications.
         </p>
-        <p className="mt-3">
+        <p className="">
           I currently work as a developer for{" "}
           <span className="text-[#d31551] font-bold">Expert Dream Builder</span>
           , where I manage the company&#39;s websites, enhance the online
@@ -71,7 +71,7 @@ function FirstPage() {
           <span className="text-[#d31551] font-bold">hospitality websites</span>
           , each time focusing on user experience and scalable solutions.
         </p>
-        <p className="mt-3">
+        <p className="">
           Let&#39;s connect and create something amazing together&#33;
         </p>
       </div>
