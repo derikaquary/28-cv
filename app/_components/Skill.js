@@ -4,8 +4,8 @@ export default function Skill() {
   return (
     <div id="skill"  className="flex flex-col items-center justify-center gap-5 px-7 py-7 bg-black/30 rounded-xl">
       <div className="flex flex-col items-center">
-      <div  className="text-4xl text-white">Skill</div>
-      <div className="bg-[#d31551] h-[2px] w-[50px] mt-2"></div>
+      <h2 className="text-4xl text-white">Skill</h2>
+      <div className="bg-[rgb(211,21,81)] h-[2px] w-[50px] mt-2"></div>
       </div>
       <div className="grid grid-cols-2 gap-16 sm:flex">
         <div className="relative h-[100px] w-[100px]">
