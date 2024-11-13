@@ -10,7 +10,7 @@ export const contents = [
     subImage3: "contMakanan",
     pageRef: "https://food-check.vercel.app/",
     text1:
-      "Alhamdulillah ya Allah, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "This app was designed to help people stay informed about their nutritional intake with ease. With the Calorie Check app, you can simply snap a picture of your food, and the app will instantly analyze and display the calorie content. Whether you&#39;re on a fitness journey, managing your diet, or just curious about the calories in your meal, this app makes it effortless. This project has been a rewarding challenge, combining AI technology with user-friendly design to deliver a tool that empowers people to make healthier choices every day.",
     text2:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     text3:

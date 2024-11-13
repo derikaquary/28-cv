@@ -39,34 +39,34 @@ function Header() {
   }, []);
 
   return (
-    <div className="fixed w-full z-[1000]">
+    <div className="fixed w-full z-[1000] bg-[#191b1f]">
       {/* Big Screen */}
-      <div className="hidden w-full sm:block bg-black">
-        <div className="relative z-[1000] w-full bg-gradient-to-l from-color11 from-75% to-color1 sm:flex items-center justify-between sm:h-[76px]">
-          <div className="flex items-center justify-between w-full max-w-6xl px-2 py-2 mx-auto">
-            <div className="relative h-[50px] w-[50px]">
+      <div className="hidden w-full sm:block">
+        <div className="relative z-[1000] w-full bg-gradient-to-l sm:flex items-center justify-between sm:h-[60px]">
+          <div className="flex items-center justify-between w-full max-w-5xl px-2 py-2 mx-auto ">
+            <div className="relative h-[50px] w-[50px] rounded-full">
               <Image
                 src="/logo.jpeg"
                 alt="Derik logo"
                 fill
-                className="object-cover"
+                className="object-cover rounded-full"
               />
             </div>
 
             <div className="flex items-center gap-6 py-2 text-white">
-              <Link href="/" className="flex items-center gap-1">
+              <Link href="#first_page" className="flex items-center gap-1">
                 <FaHome size={20} />
                 <p>Home</p>
               </Link>
               <Link
-                href="/pages/reservation"
+                href="#skill"
                 className="flex items-center gap-1"
               >
                 <BiCategory size={20} />
                 <p>Skill</p>
               </Link>
               <Link
-                href="/pages/review_page"
+                href="#projects"
                 className="flex items-center gap-1"
               >
                 <MdRateReview size={20} />

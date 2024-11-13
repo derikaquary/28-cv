@@ -13,8 +13,8 @@ function FirstPage() {
 
   return (
     <div
-      id="green"
-      className="flex flex-col gap-4 items-center w-full max-w-4xl sm:flex-row sm:justify-center sm:gap-8 sm:items-center pt-[60px] sm:mt-[60px]"
+      id="first_page"
+      className="flex flex-col gap-4 items-center w-full max-w-4xl sm:flex-row sm:justify-center sm:gap-8 sm:items-center pt-[60px] sm:mt-[40px]"
     >
       <div className="flex flex-col gap-3 ">
         <div>

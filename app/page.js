@@ -14,7 +14,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center px-3 ">
+    <div className="flex flex-col items-center gap-[100px] px-3 pb-5">
       <Header />
       <FirstPage />
       <Skill />

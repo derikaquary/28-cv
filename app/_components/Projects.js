@@ -12,8 +12,8 @@ export default function Projects() {
   };
 
   return (
-    <div className="mt-[40px] flex gap-4 w-full max-w-4xl h-[450px]">
-      <div className="flex-1 flex flex-col items-center justify-center">
+    <div id="projects" className="mt-[40px] flex gap-4 w-full max-w-4xl h-[550px] ">
+      <div className="grid items-center justify-center flex-1 grid-cols-1 gap-4 ">
         {/* Pass the subImages of the selected content */}
         <Carousel
           subImages={[
@@ -21,11 +21,18 @@ export default function Projects() {
             selectedContent.subImage2,
             selectedContent.subImage3,
           ]}
-          texts={[selectedContent.text1, selectedContent.text2, selectedContent.text3]}
+          texts={[
+            selectedContent.text1,
+            selectedContent.text2,
+            selectedContent.text3,
+          ]}
         />
-        <p>{selectedContent.text1}</p>
+        <div className="flex flex-col gap-3 px-3 py-2 text-white bg-black/30 rounded-2xl">
+          <h2 className="text-xl font-semibold">Food Calorie Check App</h2>
+          <p dangerouslySetInnerHTML={{ __html: selectedContent.text1 }} />
+        </div>
       </div>
-      <div className=" h-[450px] w-[250px] grid grid-cols-1-col gap-3 items-center justify-center overflow-auto">
+      <div className=" h-[550px] w-[250px] grid grid-cols-1-col gap-3 items-center justify-center overflow-auto">
         {contents.map((content) => (
           <div
             key={content.id}
