@@ -27,9 +27,9 @@ export default function Carousel({
   }, [next, autoSlide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden relative flex justify-center h-[300px] w-[300px] z-10 sm:w-[650px] sm:h-full rounded-xl">
+    <div className="overflow-hidden relative flex justify-center h-[300px] w-[300px] z-10 sm:w-auto sm:h-full rounded-xl bg-blue-400">
       <div
-        className="flex transition-transform duration-200 ease-out bg-green-400"
+        className="flex transition-transform duration-200 ease-out "
         style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}
       >
         {subImages.map((subImage, index) => (
@@ -38,7 +38,7 @@ export default function Carousel({
             className="flex flex-col flex-shrink-0 w-full space-y-2 "
           >
             <div
-              className={` bg-${subImage} h-[300px] w-auto bg-center bg-cover sm:h-[340px] rounded-xl`}
+              className={` bg-${subImage} h-[300px] bg-center bg-cover sm:h-[340px] sm:w-full rounded-xl`}
             ></div>
             {/* <p className="text-white text-sm text-justify sm:text-2xl sm:w-[650px]">
               {texts[index]}

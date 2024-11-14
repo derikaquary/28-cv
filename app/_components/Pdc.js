@@ -11,7 +11,7 @@ function Pdc() {
           href="https://plant-check.vercel.app/"
           target="_blank"
           rel="noopener noreferrer">
-          <button className="text-white bg-gray-700 rounded-xl px-3 py-2 sm:text-3xl">
+          <button className="px-3 py-2 text-white bg-gray-700 rounded-xl sm:text-3xl">
             click here to visit the web site of this project
           </button>
         </Link>
@@ -39,9 +39,9 @@ function Pdc() {
               impedit illum molestias.
             </p>
           </div>
-          <div className="flex flex-col items-center text-justify mt-3  space-y-2">
+          <div className="flex flex-col items-center mt-3 space-y-2 text-justify">
             <div
-              className={`rounded-xl bg-plantArt h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
+              className={`rounded-xl h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
 
             <p className="text-white text-sm sm:text-2xl sm:w-[650px]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -50,7 +50,7 @@ function Pdc() {
               impedit illum molestias.
             </p>
           </div>
-          <div className="flex flex-col items-center text-justify mt-3  space-y-2">
+          <div className="flex flex-col items-center mt-3 space-y-2 text-justify">
             <div
               className={`rounded-xl bg-plantCont h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
 
