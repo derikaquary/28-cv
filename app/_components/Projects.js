@@ -20,9 +20,9 @@ export default function Projects() {
       </div>
       <div
         id="projects"
-        className="mt-[40px] flex gap-4 w-full max-w-4xl h-[550px] "
+        className=" mt-[20px] sm:mt-[40px] flex flex-col items-center sm:flex-row gap-4 w-full max-w-4xl h-[550px] "
       >
-        <div className="grid items-center justify-center flex-1 grid-cols-1 gap-4 ">
+        <div className="flex flex-col items-center justify-center flex-1 gap-4 sm:grid sm:grid-cols-1 ">
           {/* Pass the subImages of the selected content */}
           <Carousel
             subImages={[
@@ -36,24 +36,30 @@ export default function Projects() {
               selectedContent.text3,
             ]}
           />
-          <div className="flex flex-col gap-3 px-3 py-3 text-white bg-black/30 rounded-2xl overflow-auto h-[200px]">
-            <div className="flex items-center gap-3">
+          <div className="flex flex-col gap-3 px-3 py-3 text-white bg-black/30 rounded-2xl overflow-auto sm:h-[200px]">
+            <div className="flex items-center gap-3 ">
               <h2
                 className="text-xl font-semibold"
                 dangerouslySetInnerHTML={{ __html: selectedContent.title }}
               />
-              <Link href={selectedContent.pageRef} target="_blank" rel="noopener noreferrer" className="px-4 py-1 text-black bg-white rounded-3xl">View</Link>
+              <Link
+                href={selectedContent.pageRef}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-1 text-black bg-white rounded-3xl"
+              >
+                View
+              </Link>
             </div>
-
-            <p dangerouslySetInnerHTML={{ __html: selectedContent.text1 }} />
+            <p className="hidden sm:block" dangerouslySetInnerHTML={{ __html: selectedContent.text1 }} />
           </div>
         </div>
-        <div className=" h-[550px] w-[250px] grid grid-cols-1-col gap-3 items-center justify-center overflow-auto">
+        <div className=" h-[550px] w-full sm:w-[250px] grid grid-cols-1 gap-3 items-center justify-center overflow-auto">
           {contents.map((content) => (
             <div
               key={content.id}
               onClick={() => handleContentClick(content)} // Handle click to change selected content
-              className={`py-2 px-4 rounded-lg ${
+              className={`flex justify-center py-2 px-4 rounded-lg ${
                 selectedContent.id === content.id ? "bg-white/40" : " "
               }`}
             >
