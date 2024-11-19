@@ -20,45 +20,38 @@ function Pdc() {
         <div
           data-aos="fade-up"
           data-aos-duration={1000}
-          className={`rounded-xl bg-pdc h-[200px] bg-cover bg-center sm:h-[400px] sm:w-[650px]`}></div>
+          className={`bg-center bg-cover rounded-xl bg-pdc h-[200px] sm:h-[400px] sm:w-[650px]`}></div>
         <p className="text-white text-sm text-justify w-[300px] sm:w-[650px] sm:text-2xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
-          velit nulla impedit ex, debitis consequuntur, sunt cupiditate eos nemo
-          dicta cumque facere autem omnis quod. Dolore dolor voluptatum.
+          
         </p>
       </div>
       <div>
         <Carousel autoSlide={true}>
-          <div className="flex flex-col items-center mt-3 space-y-2 ">
+          <div className="flex flex-col items-center mt-3 space-y-2">
             <div
-              className={`rounded-xl bg-lettuce h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
+              className={`bg-center bg-cover rounded-xl bg-lettuce h-[150px] w-[200px] sm:h-[300px] sm:w-[650px]`}></div>
             <p className="text-white text-sm text-justify sm:text-2xl sm:w-[650px]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Adipisci, animi repellendus ab quos quidem illum esse, libero
-              maiores omnis at repudiandae, obcaecati odit magni eum quod. Eos
-              impedit illum molestias.
+              
             </p>
           </div>
           <div className="flex flex-col items-center mt-3 space-y-2 text-justify">
             <div
+
               className={`rounded-xl h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
 
+              
+
+
             <p className="text-white text-sm sm:text-2xl sm:w-[650px]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Adipisci, animi repellendus ab quos quidem illum esse, libero
-              maiores omnis at repudiandae, obcaecati odit magni eum quod. Eos
-              impedit illum molestias.
+              
             </p>
           </div>
           <div className="flex flex-col items-center mt-3 space-y-2 text-justify">
             <div
-              className={`rounded-xl bg-plantCont h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
+              className={`bg-center bg-cover rounded-xl bg-plantCont h-[150px] w-[200px] sm:h-[300px] sm:w-[650px]`}></div>
 
             <p className="text-white text-sm sm:text-2xl sm:w-[650px]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Adipisci, animi repellendus ab quos quidem illum esse, libero
-              maiores omnis at repudiandae, obcaecati odit magni eum quod. Eos
-              impedit illum molestias.
+              
             </p>
           </div>
         </Carousel>

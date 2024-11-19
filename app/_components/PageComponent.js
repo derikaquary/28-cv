@@ -21,7 +21,7 @@ function PageComponent({ content }) {
       className="flex flex-col gap-4 items-center h-[100vh] w-full px-3 max-w-7xl mb-3 sm:h-fit">
       <div data-aos="fade-right" data-aos-duration={1000}>
         <Link href={pageRef} target="_blank" rel="noopener noreferrer">
-          <button className="text-white bg-gray-700 rounded-xl px-3 py-2 sm:text-3xl">
+          <button className="px-3 py-2 text-white bg-gray-700 rounded-xl sm:text-3xl">
             click here to visit the web site of this project
           </button>
         </Link>
@@ -30,14 +30,12 @@ function PageComponent({ content }) {
         <div
           data-aos={effect}
           data-aos-duration={1000}
-          className={`rounded-xl bg-${mainImage} h-[200px] bg-cover bg-center sm:h-[400px] sm:w-[650px]`}></div>
+          className={`bg-center bg-cover rounded-xl bg-${mainImage} h-[200px] sm:h-[400px] sm:w-[650px]`}></div>
         <p
           data-aos={effect}
           data-aos-duration={1000}
           className="text-white text-sm text-justify w-[300px] sm:w-[650px] sm:text-2xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
-          velit nulla impedit ex, debitis consequuntur, sunt cupiditate eos nemo
-          dicta cumque facere autem omnis quod. Dolore dolor voluptatum.
+          
         </p>
       </div>
       <div>
