@@ -17,9 +17,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Google Tag Manager */}
         <Script id="gtm-head" strategy="afterInteractive">
           {`
@@ -32,8 +29,10 @@ export default function RootLayout({ children }) {
         </Script>
         {/* End Google Tag Manager */}
         {/* Google Site Verification for Search Console */}
-        <meta name="google-site-verification" content="UEkD1m_FAQ1S1DWIjCIEVY7w2f86SV2XJCN5lpMlaEs" />
-        
+        <meta
+          name="google-site-verification"
+          content="UEkD1m_FAQ1S1DWIjCIEVY7w2f86SV2XJCN5lpMlaEs"
+        />
       </head>
       <body className={`${rubik.className} bg-[#212429] relative`}>
         {/* Google Tag Manager (noscript) */}
