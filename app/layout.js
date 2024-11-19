@@ -33,10 +33,7 @@ export default function RootLayout({ children }) {
         />
         {/* Google Site Verification for Search Console */}
 
-        <meta
-          name="google-site-verification"
-          content="google62797fa1a6e7f030"
-        />
+        <meta name="google-site-verification" content="UEkD1m_FAQ1S1DWIjCIEVY7w2f86SV2XJCN5lpMlaEs" />
       </head>
       <body className={`${rubik.className} bg-[#212429] relative`}>
         {/* Google Tag Manager (noscript) */}
