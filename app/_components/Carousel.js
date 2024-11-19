@@ -5,7 +5,7 @@ import { useEffect, useState, useCallback } from "react";
 export default function Carousel({
   subImages = [],
   texts = [],
-  autoSlide = false,
+  autoSlide = true,
   autoSlideInterval = 3000,
 }) {
   const [curr, setCurr] = useState(0);
@@ -27,19 +27,22 @@ export default function Carousel({
   }, [next, autoSlide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden relative flex justify-center w-[300px] h-[300px] z-10 sm:w-[750px] sm:h-[500px]">
+    <div className="overflow-hidden relative flex justify-center h-[300px] w-[300px] z-10 sm:w-auto sm:h-full rounded-xl bg-blue-400">
       <div
-        className="flex transition-transform ease-out duration-200"
-        style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}>
+        className="flex transition-transform duration-200 ease-out "
+        style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}
+      >
         {subImages.map((subImage, index) => (
           <div
             key={index}
-            className="w-full flex-shrink-0 flex flex-col items-center space-y-2">
+            className="flex flex-col flex-shrink-0 w-full space-y-2 "
+          >
             <div
-              className={`rounded-xl bg-${subImage} h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
-            <p className="text-white text-sm text-justify sm:text-2xl sm:w-[650px]">
+              className={` bg-${subImage} h-[300px] bg-center bg-cover sm:h-[340px] sm:w-full rounded-xl`}
+            ></div>
+            {/* <p className="text-white text-sm text-justify sm:text-2xl sm:w-[650px]">
               {texts[index]}
-            </p>
+            </p> */}
           </div>
         ))}
       </div>
@@ -51,17 +54,16 @@ export default function Carousel({
           <IoIosArrowForward color="white" size={30} />
         </button>
       </div>
-      <div className="absolute bottom-3 right-0 left-0">
-        <div className="flex items-center justify-center gap-2 z-10">
+      <div className="absolute left-0 right-0 bottom-3">
+        <div className="z-10 flex items-center justify-center gap-2">
           {subImages.map((_, i) => (
             <div
               key={i}
               onClick={() => setCurr(i)}
-              className={`
-                cursor-pointer transition-all w-3 h-3 bg-white rounded-full ${
-                  curr === i ? "p-2" : "bg-opacity-50"
-                }
-              `}></div>
+              className={`cursor-pointer transition-all w-3 h-3 bg-white rounded-full ${
+                curr === i ? "p-2" : "bg-opacity-50"
+              }`}
+            ></div>
           ))}
         </div>
       </div>

@@ -36,7 +36,11 @@ function Pdc() {
           </div>
           <div className="flex flex-col items-center mt-3 space-y-2 text-justify">
             <div
-              className={`bg-center bg-cover rounded-xl bg-plantArt h-[150px] w-[200px] sm:h-[300px] sm:w-[650px]`}></div>
+
+              className={`rounded-xl h-[150px] w-[200px] bg-center bg-cover sm:h-[300px] sm:w-[650px]`}></div>
+
+              
+
 
             <p className="text-white text-sm sm:text-2xl sm:w-[650px]">
               
