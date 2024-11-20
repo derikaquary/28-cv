@@ -26,6 +26,15 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
 
+        {/* Open Graph Metadata */}
+        <meta property="og:title" content="Derik's world" />
+        <meta property="og:description" content="Hi I am Derik, come and see my work" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://derikaquary.vercel.app" />
+        <meta property="og:image" content="https://derikaquary.vercel.app/my_photo.png" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="Derik's world" />
+
         {/* Google Tag Manager */}
         <Script
           id="gtm-head"
@@ -62,3 +71,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
