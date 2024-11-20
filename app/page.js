@@ -3,6 +3,10 @@ import FirstPage from "./_components/FirstPage";
 import Skill from "./_components/Skill";
 import Projects from "./_components/Projects";
 
+export const metadata = {
+  title: "My World"
+}
+
 export default function Home() {
   
 

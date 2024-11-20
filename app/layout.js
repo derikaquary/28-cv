@@ -11,7 +11,7 @@ const rubik = Rubik({
 export const metadata = {
   title: {
     default: "Derik's world",
-    template: "%s - Derik&#39; works",
+    template: "%s - Derik&#39; world",
   },
   description: "Hi I am Derik, come and see my work",
   keywords:
