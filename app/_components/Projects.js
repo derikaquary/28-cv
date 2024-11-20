@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react";
 import { contents } from "../_data/contents";
 import ContentBox from "./ContentBox";
