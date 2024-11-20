@@ -10,11 +10,12 @@ const rubik = Rubik({
 
 export const metadata = {
   title: {
-    default: "Derik's works",
+    default: "Derik's world",
     template: "%s - Derik&#39; works",
   },
   description: "Hi I am Derik, come and see my work",
-  keywords: "portfolio, Derik, web development, projects, frontend, Next.js, React",
+  keywords:
+    "portfolio, Derik, Ikhsan Derik Aquary, Derik Aquary, web development, projects, frontend, Next.js, React",
 };
 
 export default function RootLayout({ children }) {
