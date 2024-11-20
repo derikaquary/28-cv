@@ -11,15 +11,20 @@ const rubik = Rubik({
 export const metadata = {
   title: {
     default: "Derik's works",
-    template: "%s - Derik&#39; works"
+    template: "%s - Derik&#39; works",
   },
   description: "Hi I am Derik, come and see my work",
+  keywords: "portfolio, Derik, web development, projects, frontend, Next.js, React",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Metadata */}
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+
         {/* Google Tag Manager */}
         <Script
           id="gtm-head"
@@ -35,8 +40,10 @@ export default function RootLayout({ children }) {
           }}
         />
         {/* Google Site Verification for Search Console */}
-
-        <meta name="google-site-verification" content="UEkD1m_FAQ1S1DWIjCIEVY7w2f86SV2XJCN5lpMlaEs" />
+        <meta
+          name="google-site-verification"
+          content="UEkD1m_FAQ1S1DWIjCIEVY7w2f86SV2XJCN5lpMlaEs"
+        />
       </head>
       <body className={`${rubik.className} bg-[#212429] relative`}>
         {/* Google Tag Manager (noscript) */}
