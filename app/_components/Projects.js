@@ -6,6 +6,10 @@ import ContentBox from "./ContentBox";
 import Carousel from "./Carousel";
 import Link from "next/link";
 
+export const metadata = {
+  title: "My Projects"
+}
+
 export default function Projects() {
   // Set the first content as the default
   const [selectedContent, setSelectedContent] = useState(contents[0]);

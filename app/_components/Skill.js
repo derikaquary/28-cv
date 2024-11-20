@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "My Skills"
+}
+
 
 export default function Skill() {
   return (
