@@ -9,8 +9,11 @@ const rubik = Rubik({
 });
 
 export const metadata = {
-  title: "Personal CV",
-  description: "Explain personal CV",
+  title: {
+    default: "Derik's works",
+    template: "%s - Derik&#39; works"
+  },
+  description: "Hi I am Derik, come and see my work",
 };
 
 export default function RootLayout({ children }) {

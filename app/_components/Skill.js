@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 export default function Skill() {
   return (
     <div id="skill"  className="flex flex-col items-center justify-center gap-5 px-7 py-7 bg-black/30 rounded-xl">
