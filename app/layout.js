@@ -13,7 +13,7 @@ export const metadata = {
     default: "Derik's world",
     template: "%s - Derik&#39; world",
   },
-  description: "Hi I am Derik, come and see my work",
+  description: "Welcome to my world, Hi I am Derik, please come and see my work",
   keywords:
     "portfolio, Derik, Ikhsan Derik Aquary, Derik Aquary, web development, projects, frontend, Next.js, React",
 };
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content="Hi I am Derik, come and see my work" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://derikaquary.vercel.app" />
-        <meta property="og:image" content="https://derikaquary.vercel.app/my_photo.png" />
+        <meta property="og:image" content="https://derikaquary.vercel.app/logo.jpeg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Derik's world" />
 
