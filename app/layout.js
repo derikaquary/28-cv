@@ -26,6 +26,10 @@ export default function RootLayout({ children }) {
         {/* Metadata For SEO*/}
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="author" content="Derik Aquary" />
 
         {/* Open Graph Metadata for Social Media*/}
         <meta property="og:title" content="Derik's world" />
