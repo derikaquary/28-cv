@@ -1,5 +1,7 @@
 "use client";
 
+import { IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 import React, { useState } from "react";
 import { contents } from "../_data/contents";
 import ContentBox from "./ContentBox";
@@ -26,9 +28,14 @@ export default function Projects() {
       </div>
       <div
         id="projects"
-        className=" mt-[20px] sm:mt-[40px] flex flex-col items-center sm:flex-row gap-4 w-full max-w-4xl h-[580px] sm:h-[550px] bg-blue-400"
+        className="relative mt-[20px] sm:mt-[40px] flex flex-col items-center sm:flex-row gap-4 w-full max-w-4xl h-[590px] sm:h-[550px] "
       >
-        <div className="flex flex-col items-center justify-center flex-1 bg-green-400 sm:gap-4 sm:grid sm:grid-cols-1">
+        {" "}
+        <div className="sm:hidden absolute z-50 top-[65%] right-[1%] h-[100px] flex flex-col justify-between rounded-xl bg-white/30">
+          <IoIosArrowUp />
+          <IoIosArrowDown />
+        </div>
+        <div className="flex flex-col items-center justify-center flex-1 sm:gap-4 sm:grid sm:grid-cols-1">
           {/* Pass the subImages of the selected content */}
           <Carousel
             subImages={[
@@ -57,7 +64,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="bg-red-400 h-[550px] w-full sm:w-[250px] grid grid-cols-1 gap-3 items-center justify-center overflow-auto">
+        <div className=" h-[550px] w-full sm:w-[250px] grid grid-cols-1 gap-3 items-center justify-center overflow-auto">
           {contents.map((content) => (
             <div
               key={content.id}

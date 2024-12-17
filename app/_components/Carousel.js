@@ -27,7 +27,7 @@ export default function Carousel({
   }, [next, autoSlide, autoSlideInterval]);
 
   return (
-    <div className=" overflow-hidden relative flex justify-center h-[210px] w-[300px] z-10 sm:w-auto sm:h-full rounded-xl bg-teal-400">
+    <div className=" overflow-hidden relative flex justify-center h-[210px] w-[300px] z-10 sm:w-auto sm:h-full rounded-xl bg-blue-400">
       <div
         className="flex transition-transform duration-200 ease-out "
         style={{ transform: `translateX(-${curr * 100}%)`, width: "100%" }}
@@ -37,7 +37,7 @@ export default function Carousel({
             key={index}
             className="flex flex-col flex-shrink-0 w-full space-y-2 "
           >
-            <div className="relative bg-purple-400 h-[200px] sm:h-[340px] sm:w-full rounded-xl">
+            <div className="relative h-full sm:h-[340px] sm:w-full rounded-xl">
               <Image
                 src={subImage}
                 alt="images"
@@ -51,7 +51,7 @@ export default function Carousel({
           </div>
         ))}
       </div>
-      <div className="absolute inset-0 flex justify-between p-2 bg-yellow-400 sm:h-0 h-[200px]">
+      <div className="absolute inset-0 flex justify-between h-full p-2 ">
         <button className="-translate-y-[2%] rounded-full" onClick={prev}>
           <IoIosArrowBack
             color="black"
@@ -67,7 +67,7 @@ export default function Carousel({
           />
         </button>
       </div>
-      <div className="absolute left-0 right-0 bottom-12 sm:bottom-3">
+      <div className="absolute left-0 right-0 bottom-6 sm:bottom-3">
         <div className="z-10 flex items-center justify-center gap-2">
           {subImages.map((_, i) => (
             <div
