@@ -26,9 +26,9 @@ export default function Projects() {
       </div>
       <div
         id="projects"
-        className=" mt-[20px] sm:mt-[40px] flex flex-col items-center sm:flex-row gap-4 w-full max-w-4xl h-[550px] "
+        className=" mt-[20px] sm:mt-[40px] flex flex-col items-center sm:flex-row gap-4 w-full max-w-4xl h-[580px] sm:h-[550px] bg-blue-400"
       >
-        <div className="flex flex-col items-center justify-center flex-1 gap-4 sm:grid sm:grid-cols-1 ">
+        <div className="flex flex-col items-center justify-center flex-1 bg-green-400 sm:gap-4 sm:grid sm:grid-cols-1">
           {/* Pass the subImages of the selected content */}
           <Carousel
             subImages={[
@@ -37,8 +37,8 @@ export default function Projects() {
               selectedContent.subImage3,
             ]}
           />
-          <div className="flex flex-col gap-3 px-3 py-3 text-white bg-black/30 rounded-2xl overflow-auto sm:h-[200px]">
-            <div className="flex items-center gap-3 ">
+          <div className="flex flex-col gap-3 px-3 py-3 text-white bg-black/30 rounded-2xl ">
+            <div className="flex items-center gap-3">
               <h2
                 className="text-xl font-semibold"
                 dangerouslySetInnerHTML={{ __html: selectedContent.title }}
@@ -52,13 +52,12 @@ export default function Projects() {
                 View
               </Link>
             </div>
-            <p
-              className="hidden sm:block"
-              dangerouslySetInnerHTML={{ __html: selectedContent.text1 }}
-            />
+            <div className="sm:h-[120px] w-full overflow-auto hidden sm:block">
+              <p dangerouslySetInnerHTML={{ __html: selectedContent.text1 }} />
+            </div>
           </div>
         </div>
-        <div className=" h-[550px] w-full sm:w-[250px] grid grid-cols-1 gap-3 items-center justify-center overflow-auto">
+        <div className="bg-red-400 h-[550px] w-full sm:w-[250px] grid grid-cols-1 gap-3 items-center justify-center overflow-auto">
           {contents.map((content) => (
             <div
               key={content.id}
