@@ -5,8 +5,6 @@ import Image from "next/image";
 
 export default function Carousel({
   subImages = [],
-  alt = [],
-  texts = [],
   autoSlide = true,
   autoSlideInterval = 3000,
 }) {
@@ -54,11 +52,19 @@ export default function Carousel({
         ))}
       </div>
       <div className="absolute inset-0 flex justify-between p-5">
-        <button className="-translate-y-10" onClick={prev}>
-          <IoIosArrowBack color="white" size={30} />
+        <button className="-translate-y-[2%] rounded-full" onClick={prev}>
+          <IoIosArrowBack
+            color="black"
+            size={30}
+            className="rounded-full bg-white/30"
+          />
         </button>
-        <button className="-translate-y-10" onClick={next}>
-          <IoIosArrowForward color="white" size={30} />
+        <button className="-translate-y-[2%]" onClick={next}>
+          <IoIosArrowForward
+            color="black"
+            size={30}
+            className="rounded-full bg-white/30"
+          />
         </button>
       </div>
       <div className="absolute left-0 right-0 bottom-3">

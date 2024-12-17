@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { contents } from "../_data/contents";
@@ -7,8 +7,8 @@ import Carousel from "./Carousel";
 import Link from "next/link";
 
 export const metadata = {
-  title: "My Projects"
-}
+  title: "My Projects",
+};
 
 export default function Projects() {
   // Set the first content as the default
@@ -36,16 +36,6 @@ export default function Projects() {
               selectedContent.subImage2,
               selectedContent.subImage3,
             ]}
-            alt={[
-              selectedContent.alt1,
-              selectedContent.alt2,
-              selectedContent.alt3
-            ]}
-            texts={[
-              selectedContent.text1,
-              selectedContent.text2,
-              selectedContent.text3,
-            ]}
           />
           <div className="flex flex-col gap-3 px-3 py-3 text-white bg-black/30 rounded-2xl overflow-auto sm:h-[200px]">
             <div className="flex items-center gap-3 ">
@@ -62,7 +52,10 @@ export default function Projects() {
                 View
               </Link>
             </div>
-            <p className="hidden sm:block" dangerouslySetInnerHTML={{ __html: selectedContent.text1 }} />
+            <p
+              className="hidden sm:block"
+              dangerouslySetInnerHTML={{ __html: selectedContent.text1 }}
+            />
           </div>
         </div>
         <div className=" h-[550px] w-full sm:w-[250px] grid grid-cols-1 gap-3 items-center justify-center overflow-auto">

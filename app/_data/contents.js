@@ -1,5 +1,33 @@
 export const contents = [
   {
+    id: "roemah",
+    effect: "fade-up",
+    mainImage: "fcc",
+    src: "/roemah1.png",
+    alt: "makanan",
+    subImage1: "/roemah1.png",
+    subImage2: "/roemah2.png",
+    subImage3: "/roemah3.png",
+    pageRef: "https://roemah28.vercel.app",
+    title: "Roemah 28",
+    text1:
+      " I developed for Roemah 28, a hospitality company in Medan, North Sumatra. Roemah 28 offers room rentals, a café, meeting room facilities, and airport transportation, and the website is designed to represent these services seamlessly online.",
+  },
+  {
+    id: "stiker",
+    effect: "fade-up",
+    mainImage: "stiker",
+    src: "/stiker1.png",
+    alt: "stiker",
+    subImage1: "/stiker1.png",
+    subImage2: "/stiker2.png",
+    subImage3: "/stiker3.png",
+    pageRef: "https://www.cetakstikermedan.com/",
+    title: "Stiker Medan",
+    text1:
+      " For this project, I designed and developed a fully functional, dynamic e-commerce platform for Stiker Medan, focused on showcasing and selling a wide range of sticker products. My aim was to deliver a user-friendly interface with smooth navigation, high-quality visuals, and a backend that could support seamless product management.",
+  },
+  {
     id: "fcc",
     effect: "fade-up",
     mainImage: "fcc",
@@ -8,18 +36,10 @@ export const contents = [
     subImage1: "/makanan.png",
     subImage2: "/article_makanan.png",
     subImage3: "/article_content.png",
-    alt1: "makanan 1",
-    alt2: "makanan 2",
-    alt3: "makanan 3",
     pageRef: "https://food-check.vercel.app/",
     title: "Food Calorie Check App",
     text1:
       "This app was designed to help people stay informed about their nutritional intake with ease. With the Calorie Check app, you can simply snap a picture of your food, and the app will instantly analyze and display the calorie content. Whether you&#39;re on a fitness journey, managing your diet, or just curious about the calories in your meal, this app makes it effortless. This project has been a rewarding challenge, combining AI technology with user-friendly design to deliver a tool that empowers people to make healthier choices every day.",
-
-    text2:
-      "I'm excited to share what I've been working on&mdash;a cutting-edge app designed to help people stay informed about their nutritional intake with ease. With the Calorie Check app, you can simply snap a picture of your food, and the app will instantly analyze and display the calorie content. Whether you're on a fitness journey, managing your diet, or just curious about the calories in your meal, this app makes it effortless.",
-    text3:
-      "This project has been a rewarding challenge, combining AI technology with user-friendly design to deliver a tool that empowers people to make healthier choices every day.",
   },
   {
     id: "pdc",
@@ -30,18 +50,10 @@ export const contents = [
     subImage1: "/lettuce.png",
     subImage2: "/plant_article.png",
     subImage3: "/plant_content.png",
-    alt1: "lettuce",
-    alt2: "plantArt",
-    alt3: "plantCont",
     pageRef: "https://plant-check.vercel.app/",
     title: "Plant Desease Analyzer App",
     text1:
       "Plant Desease Analyzer is a web app I built that uses AI to identify plants and diagnose issues from a photo. Simply take or upload an image, and the app provides the plant&#39;s name, potential problems, and specific care solutions. Built with Next.js, Tailwind CSS, and Google Generative AI, it offers an intuitive interface for real-time analysis. Perfect for gardening enthusiasts or anyone curious about plant care.",
-
-    text2:
-      "Instant Plant Analysis: Simply take a picture or upload an image of a plant, and the app will identify the plant species, detect any possible issues, and suggest specific solutions.",
-    text3:
-      "AI-Powered Insights: Leveraging the power of Google's generative AI, PlantAnalyzer provides detailed and accurate plant analysis, including nutrient deficiencies and care recommendations.",
   },
   {
     id: "oasis",
@@ -52,16 +64,10 @@ export const contents = [
     subImage1: "/cabins.png",
     subImage2: "/reserve.png",
     subImage3: "/guest.png",
-    alt1: "cabins",
-    alt2: "reserve",
-    alt3: "guest",
     pageRef: "https://wild-oasis-website-six.vercel.app/",
     title: "Wild Oasis Website",
     text1:
       "Wild Oasis is a very ambitious project, where I expand my knowledge after learning React.js, and I continue to learn Next.js by building this project. This is a full-stack website where the backend is handled by using Supabase. Also, I learned how to include an authentication process by using Auth.js. In this website, the user can login and create a reservation for a cabin. There are 8 cabins in total.",
-
-    text2:
-      "This is a full-stack website where the backend is handled by using Supabase. Also, I learned how to include an authentication process by using Auth.js",
   },
   {
     id: "ecommerce",
@@ -72,17 +78,10 @@ export const contents = [
     subImage1: "/cloth.png",
     subImage2: "/ball.png",
     subImage3: "/products.png",
-    alt1: "cloth",
-    alt2: "ball",
-    alt3: "products",
     pageRef: "https://online-shopping-sooty-ten.vercel.app/",
     title: "E&#45;Commerce",
     text1:
       "As a budding front-end web developer, I&#39;ve been honing my skills in HTML, CSS, JavaScript, and React since November 2023. Currently, I'm applying this knowledge to develop an e&#45;commerce website. On the landing page, users can browse a variety of products and utilize a search bar for specific items. Upon selecting desired products and quantities, they can seamlessly add them to their shopping cart. By clicking the shopping cart icon, conveniently located in the top&#45;right corner, users transition to a comprehensive cart summary page. Here, they can select delivery options, view estimated arrival times, and review pricing details including taxes and total costs. This project is an ongoing endeavor, evolving as I continue to expand my expertise in web development.",
-    text2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text3:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: "chat",
@@ -93,9 +92,6 @@ export const contents = [
     subImage1: "/profile.png",
     subImage2: "/pricing.png",
     subImage3: "/signup.png",
-    alt1: "profile",
-    alt2: "pricing",
-    alt3: "signup",
     pageRef: "https://chatbuddy-derik-aquarys-projects.vercel.app/",
     title: "Chat Buddy",
     text1:
@@ -113,16 +109,9 @@ export const contents = [
     subImage1: "/menu.png",
     subImage2: "/menu2.png",
     subImage3: "/order.png",
-    alt1: "menu",
-    alt2: "menu2",
-    alt3: "order",
     pageRef: "https://warung-ummu-yassir.vercel.app/",
     title: "Restaurant Website",
     text1:
       " This user&#45;friendly website for Ummu Yasir showcases the authentic Indonesian cuisine. From implementing a seamless design to optimizing for mobile responsiveness, this site highlights my skills in creating engaging, functional, and visually appealing websites. Check it out to see how I bring client&#39;s visions to life",
-    text2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    text3:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
