@@ -1,9 +1,11 @@
 "use client";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { useEffect, useState, useCallback } from "react";
+import Image from "next/image";
 
 export default function Carousel({
   subImages = [],
+  alt = [],
   texts = [],
   autoSlide = true,
   autoSlideInterval = 3000,
@@ -37,9 +39,14 @@ export default function Carousel({
             key={index}
             className="flex flex-col flex-shrink-0 w-full space-y-2 "
           >
-            <div
-              className={` bg-${subImage} h-[300px] bg-center bg-cover sm:h-[340px] sm:w-full rounded-xl`}
-            ></div>
+            <div className="relative h-[300px] sm:h-[340px] sm:w-full rounded-xl">
+              <Image
+                src={subImage}
+                alt="images"
+                fill
+                className="object-cover"
+              />
+            </div>
             {/* <p className="text-white text-sm text-justify sm:text-2xl sm:w-[650px]">
               {texts[index]}
             </p> */}

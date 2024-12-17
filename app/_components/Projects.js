@@ -36,6 +36,11 @@ export default function Projects() {
               selectedContent.subImage2,
               selectedContent.subImage3,
             ]}
+            alt={[
+              selectedContent.alt1,
+              selectedContent.alt2,
+              selectedContent.alt3
+            ]}
             texts={[
               selectedContent.text1,
               selectedContent.text2,
