@@ -28,6 +28,20 @@ export const contents = [
       " For this project, I designed and developed a fully functional, dynamic e-commerce platform for Stiker Medan, focused on showcasing and selling a wide range of sticker products. My aim was to deliver a user-friendly interface with smooth navigation, high-quality visuals, and a backend that could support seamless product management.",
   },
   {
+    id: "bluzka",
+    effect: "fade-up",
+    mainImage: "bluzka",
+    src: "/bluzka1.png",
+    alt: "bluzka",
+    subImage1: "/bluzka1.png",
+    subImage2: "/bluzka2.png",
+    subImage3: "/bluzka3.png",
+    pageRef: "https://bluzka.vercel.app/",
+    title: "Bluzka",
+    text1:
+      " This responsive website showcases a curated collection of high-quality clothing items with sleek animations powered by AOS (Animate on Scroll). I designed and implemented a visually engaging layout using Next.js and Tailwind CSS, ensuring a seamless user experience across devices. The project demonstrates my ability to troubleshoot issues, such as resolving animation-induced layout shifts, and highlights my skills in optimizing performance, implementing dynamic features, and creating elegant, user-focused interfaces.",
+  },
+  {
     id: "fcc",
     effect: "fade-up",
     mainImage: "fcc",
