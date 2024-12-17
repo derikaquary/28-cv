@@ -44,7 +44,7 @@ export default function Projects() {
               selectedContent.subImage3,
             ]}
           />
-          <div className="flex flex-col gap-3 px-3 py-3 text-white bg-black/30 rounded-2xl ">
+          <div className="flex flex-col gap-3 px-3 py-3 text-white bg-black/30 rounded-2xl">
             <div className="flex items-center gap-3">
               <h2
                 className="text-xl font-semibold"
