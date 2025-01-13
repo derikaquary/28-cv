@@ -1,5 +1,19 @@
 export const contents = [
   {
+    id: "lpq-arroyyan",
+    effect: "fade-up",
+    mainImage: "",
+    src: "/lpqarroyyan.png",
+    alt: "LPQ Ar Rayyan",
+    subImage1: "/lpqarroyyan.png",
+    subImage2: "/lpqarroyyan2.png",
+    subImage3: "/lpqarroyyan3.png",
+    pageRef: "https://lpqarroyyan.vercel.app/",
+    title: "LPQ Ar Rayyan",
+    text1:
+      " I created a website for LPQ Ar Rayyan to showcase its programs, principles, and goals in nurturing a Qurani generation. The site features a visually engaging layout with a hero section, dynamic content, and responsive design. Built with Next.js and Tailwind CSS, it incorporates advanced techniques like lazy loading, Google Maps integration, and reusable components for scalability and performance. This project demonstrates my expertise in modern web development and user-focused design.",
+  },
+  {
     id: "roemah",
     effect: "fade-up",
     mainImage: "fcc",
@@ -82,6 +96,20 @@ export const contents = [
     title: "Wild Oasis Website",
     text1:
       "Wild Oasis is a very ambitious project, where I expand my knowledge after learning React.js, and I continue to learn Next.js by building this project. This is a full-stack website where the backend is handled by using Supabase. Also, I learned how to include an authentication process by using Auth.js. In this website, the user can login and create a reservation for a cabin. There are 8 cabins in total.",
+  },
+  {
+    id: "expert",
+    effect: "fade-up",
+    mainImage: "expert",
+    src: "/expert1.png",
+    alt: "villa",
+    subImage1: "/expert1.png",
+    subImage2: "/expert2.png",
+    subImage3: "/expert3.png",
+    pageRef: "https://expertdb.vercel.app/",
+    title: "Expert Dream Builder",
+    text1:
+      "I developed the official website for Expert Dream Builder, a premier villa and home construction company in Bali. The site showcases their bespoke design and construction services, emphasizing luxury, professionalism, and client-centered solutions. Built using Next.js and Tailwind CSS, it features responsive design, dynamic animations, and an intuitive interface. This project highlights my expertise in modern web development and creating impactful digital experiences.",
   },
   {
     id: "ecommerce",
